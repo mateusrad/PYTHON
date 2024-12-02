@@ -1,0 +1,7 @@
+var = input('Digite alguma coisa:')
+print('o texto digitado foi {}'.format(var))
+print('está em mausculo?',var.isupper())
+print('tem numeros e letras?',var.isalnum())
+print('tem somente numeros?',var.isnumeric())
+print('tem valor decimal?',var.isdecimal())
+print('pertence a ',type(var))

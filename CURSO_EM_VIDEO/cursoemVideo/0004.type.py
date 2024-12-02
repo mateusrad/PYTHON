@@ -1,0 +1,6 @@
+var1 = int(input('Digite um numero:'))
+var2 = float(input('Digite outro numero:'))
+var3 = input('digite qualque coisa:')
+print('O primeiro número digitado é da',type(var1))
+print('O segundo número digitado é da',type(var2),var2.is_integer())
+print('A terceira variável é da',type(var3),var3.isupper())
